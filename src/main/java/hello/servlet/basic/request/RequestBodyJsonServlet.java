@@ -15,7 +15,7 @@ import java.nio.charset.StandardCharsets;
 
 @WebServlet(name = "RequestBodyJsonServlet", urlPatterns = "/request-body-json")
 public class RequestBodyJsonServlet extends HttpServlet {
-
+    //내용 수정
     private ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
