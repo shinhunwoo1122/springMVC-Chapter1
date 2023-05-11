@@ -14,6 +14,7 @@ public class ServletApplication {
 		SpringApplication.run(ServletApplication.class, args);
 	}
 
+
 	//Bean등록으로도 controller실행 가능 다만 Componet만 등록되므로
 	//@RequestMapping을 controller에 달아줘야 RequestMappingHandlerMapping가 mapping정보로 인식하여 등록함
 
